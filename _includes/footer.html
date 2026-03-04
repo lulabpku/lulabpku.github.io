@@ -1,34 +1,30 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<p>{{ site.title }}</p>
-				<img class="img-fluid" src="{{ site.baseurl }}/images/logo/lab-logo.png"
-				     style="max-width: 100px;">
-			</div>
+<footer class="site-footer">
 
-			<div class="col-sm-4">
-				<p>Links</p>
-				<ul class="list-unstyled">
-					<li><a href="https://github.com/lulabpku">Github Repository</a></li>
-				</ul>
-			</div>
+  <div class="wrapper">
 
-			<div class="col-sm-4">
-				<p>Contact</p>
-				<p>Room 223, Department of Physiology,</p>
-<p>School of Basic Medical Sciences, Peking University,</p>
-<p>No. 38 Xueyuan Road, Haidian District, Beijing</p>
-			</div>
-		</div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p>{{ site.description }}</p>
+      </div>
 
-		<div class="row mt-3">
-			<p class="text-center">Copyright, 2024</p>
-		</div>
-	</div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
   </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+</footer>
+
