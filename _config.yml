@@ -1,16 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Lu Lab @ PKU
+title: Spatial multiomics research in the Lu laboratory at Peking University
+lab_name: Lu Laboratory
 email: tianlu@bjmu.edu.cn
-description: Lab website for the Lu Lab @ PKU
+institution: Peking University
+description: Lu Lab for cutting-edge technologies for spatiotemporal multiomics
 baseurl: ""
 url: "http://lulabpku.github.io"
+github_username:  lulabpku
+images_dir: "/images/"
 
 include:
   - .htaccess
@@ -25,6 +23,8 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+include: ["_pages"]
+permalink: /:title/
 
 # Markdown Processing
 kramdown:
@@ -37,4 +37,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-
+  
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
