@@ -1,0 +1,72 @@
+- name: Dr. Tian Lu
+  is_pi: True
+  is_current: True
+  position: Professor
+  orcid:  https://orcid.org/0000-0003-2932-7800
+  bio: >
+    I am in the department of <a href="http://www.sfu.ca/mbb.html">Molecular Biology and Biochemistry</a> at
+    <a href="http://www.sfu.ca">Peking University</a> and hold a Scientist appointment in the <a href="http://www.bcgsc.ca">BC Cancer Genome Sciences Centre</a>.
+    I completed my MSc and PhD in bioinformatics at UBC in the laboratory of
+    Marco Marra.
+    My early research involved the use of massively parallel
+    sequencing to identify driver mutations in leukemias and lymphomas
+    including histone modifiers such as <a href="https://www.ncbi.nlm.nih.gov/pubmed/20081860">EZH2</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/21796119">KMT2D</a>.
+    My current research focus involves using genome and transcriptome
+    sequencing to discover novel drivers in B-cell lymphomas and to
+    determine mechanisms that underlie tumour progression and treatment
+    resistance.
+    I have a general interest in developing methods to identify non-coding
+    mutations with regulatory potential from genome-wide data sets and
+    error-corrected sequencing strategies and algorithms to identify mutations and copy number from circulating
+    tumour DNA (<a href="https://www.ncbi.nlm.nih.gov/pubmed/28874686">ctDNA</a>). Dr. Morin is a Scholar of the <a href="https://www.msfhr.org/">Michael Smith Foundation for Health Research</a>.
+  photo: team/MorinRyan.JPG
+
+- name: Dr. Kostiantyn Dreval
+  is_pi: False
+  is_current: True
+  github: https://github.com/kdreval
+  position: Research Associate
+  bio: >
+    I obtained PhD in 2014, following which I received comprehensive training at FDA-NCTR and University of New Mexico.
+    During my career, I conducted original research in the area of cancer epigenomics and transcriptomics. While
+    performing basic research in cancer biology and epigenetics, I became passionate about scientific discoveries
+    in the area of bioinformatics and computational biology. In the Morin lab, I am applying a variety of bioinformatics
+    tools to uncover genomic features of Burkitt lymphoma, a form of aggressive B-cell non-Hodgkin lymphoma. Specifically,
+    my research is focused on comparing the genomic and molecular characteristics of adult and pediatric BL, Epstein-Barr
+    virus (EBV) positive and negative BL, as well as endemic and sporadic cases, which will allow better diagnosis approaches
+    and will ultimately facilitate development of more effective treatment strategies.
+  photo: team/kdreval.jpg
+
+- name: Dr. Laura Hilton
+  is_pi: False
+  is_current: True
+  position: Staff Scientist, BC Cancer Centre for Lymphoid Cancer
+  github: https://github.com/lkhilton
+  orcid: https://orcid.org/0000-0002-6413-6586
+  bio: >
+    B-cell non-Hodgkin lymphomas have a high frequency of driver structural
+    variants, especially those that involve placing the oncogenes MYC, BCL2,
+    BCL6, and CCND1 under the control of potent immunoglobulin enhancers.
+    My project utilizes whole genome and targeted sequencing to characterize
+    these driver SVs across B-NHLs with a goal of understanding the mechanisms
+    by which they arise. I'm also interested in using gene expression and
+    mutation data to facilitate the classification of rare and/or poorly
+    characterized lymphomas, to identify progonostic and predictive biomarkers
+    and targetable vulnerabilities that can be exploited in the development
+    of novel therapies.
+  photo: team/lhilton.jpg
+
+- name: Leah Tooman
+  is_pi: False
+  is_current: False
+  position: Research Assistant
+  bio: >
+    My role in the Morin Lab is to support the research that is being conducted by our students and postdoctoral fellows
+    through sequencing and cell culture work. I am also responsible for monitoring and maintaining supplies and equipment,
+    conducting research, and ensuring the lab is maintaining high ethical standards . I have been working in a similar position
+    in different genetics based labs in Canada, New Zealand and the United States for over a decade. As passionate as I am
+    about the field of science, I wish it was equally accessible to people of all genders and ethnicities, and from all
+    socioeconomic backgrounds.
+  photo: team/ltooman.jpg
+
+
