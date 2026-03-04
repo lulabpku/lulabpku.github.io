@@ -10,7 +10,7 @@ title: Lu Lab @ PKU
 email: tianlu@bjmu.edu.cn
 description: Lab website for the Lu Lab @ PKU
 baseurl: ""
-url: "http://lulab.github.io"
+url: "http://lulabpku.github.io"
 
 include:
   - .htaccess
