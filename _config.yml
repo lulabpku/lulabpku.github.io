@@ -1,10 +1,10 @@
-
 # Site settings
 title: Lu laboratory @ Peking University
 lab_name: Lu Laboratory
 email: tianlu@bjmu.edu.cn
 institution: Peking University
-description: Lu Lab for cutting-edge technologies for spatiotemporal multiomics
+description: >
+The Lu Lab for cutting-edge technologies for spatiotemporal multiomics
 baseurl: ""
 url: "http://lulabpku.github.io"
 github_username:  lulabpku
